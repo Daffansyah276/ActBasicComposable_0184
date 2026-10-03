@@ -83,10 +83,23 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     )
                 )
             }
+
             Spacer(
                 modifier = Modifier.height(35.dp)
             )
+            Image(
+                painter = painterResource(R.drawable.logo),
+                contentDescription = "Logo Aplikasi",
+                modifier = Modifier.size(125.dp)
+            )
 
+            Spacer(
+                modifier = Modifier.height(20.dp)
+            )
+
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) 
         }
     }
 }
