@@ -38,6 +38,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier.fillMaxSize()
     ) {
+
         Image(
             painter = painterResource(R.drawable.background),
             contentDescription = "Gambar Background",
@@ -87,16 +88,17 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             Spacer(
                 modifier = Modifier.height(35.dp)
             )
+
+            // Logo
             Image(
                 painter = painterResource(R.drawable.logo),
-                contentDescription = "Logo Umy",
+                contentDescription = "Logo Aplikasi",
                 modifier = Modifier.size(125.dp)
             )
 
             Spacer(
                 modifier = Modifier.height(20.dp)
             )
-
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
@@ -135,7 +137,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     style = TextStyle(
                         fontSize = 18.sp,
                         fontWeight = FontWeight.Bold,
-                        color = Color.White,
+                        color = Color.Black,
                         shadow = bayanganTeks
                     )
                 )
@@ -144,7 +146,19 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             Spacer(
                 modifier = Modifier.weight(1f)
             )
-
+            Image(
+                painter = painterResource(R.drawable.jeep),
+                contentDescription = "Foto Profil ",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(270.dp)
+                    .clip(CircleShape)
+                    .border(
+                        width = 4.dp,
+                        color = Color.Yellow,
+                        shape = CircleShape
+                    )
+            )
         }
     }
 }
