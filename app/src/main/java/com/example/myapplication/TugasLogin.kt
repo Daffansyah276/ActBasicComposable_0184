@@ -89,7 +89,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
             Image(
                 painter = painterResource(R.drawable.logo),
-                contentDescription = "Logo Aplikasi",
+                contentDescription = "Logo Umy",
                 modifier = Modifier.size(125.dp)
             )
 
@@ -97,9 +97,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 modifier = Modifier.height(20.dp)
             )
 
-            Column(
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) 
+
         }
     }
 }
