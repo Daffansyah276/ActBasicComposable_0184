@@ -114,6 +114,14 @@ fun TataletakRowColumn(modifier: Modifier) {
 @Composable
 fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
     val gambar = painterResource(id = R.drawable.logo)
+    Column {
 
+        Box(
+            modifier = modifier
+                .fillMaxWidth()
+                .height(110.dp)
+                .background(Color.Yellow),
+            contentAlignment = Alignment.Center
+        )
     }
 }
