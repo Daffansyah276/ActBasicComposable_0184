@@ -69,6 +69,24 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     )
                 )
 
+                Spacer(
+                    modifier = Modifier.height(4.dp)
+                )
 
+                Text(
+                    text = "Ini adalah halaman login",
+                    style = TextStyle(
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = Color.White,
+                        shadow = bayanganTeks
+                    )
+                )
+            }
+            Spacer(
+                modifier = Modifier.height(35.dp)
+            )
+
+        }
     }
 }
