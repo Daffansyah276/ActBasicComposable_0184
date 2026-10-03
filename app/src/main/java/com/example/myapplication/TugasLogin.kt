@@ -89,7 +89,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
             )
             Image(
                 painter = painterResource(R.drawable.logo),
-                contentDescription = "Logo UMY",
+                contentDescription = "Logo Umy",
                 modifier = Modifier.size(125.dp)
             )
 
@@ -97,6 +97,53 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 modifier = Modifier.height(20.dp)
             )
 
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+
+                Text(
+                    text = "NAMA",
+                    style = TextStyle(
+                        fontSize = 18.sp,
+                        fontWeight = FontWeight.ExtraBold,
+                        color = Color.Yellow,
+                        shadow = bayanganTeks,
+                        letterSpacing = 2.sp
+                    )
+                )
+
+                Spacer(
+                    modifier = Modifier.height(3.dp)
+                )
+
+                Text(
+                    text = "Daffansyah Arya Hakim",
+                    style = TextStyle(
+                        fontSize = 21.sp,
+                        fontWeight = FontWeight.ExtraBold,
+                        color = Color.White,
+                        shadow = bayanganTeks
+                    )
+                )
+
+                Spacer(
+                    modifier = Modifier.height(3.dp)
+                )
+
+                Text(
+                    text = "20240140184",
+                    style = TextStyle(
+                        fontSize = 18.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = Color.White,
+                        shadow = bayanganTeks
+                    )
+                )
+            }
+
+            Spacer(
+                modifier = Modifier.weight(1f)
+            )
 
         }
     }
