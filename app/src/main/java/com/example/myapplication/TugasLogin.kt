@@ -137,7 +137,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     style = TextStyle(
                         fontSize = 18.sp,
                         fontWeight = FontWeight.Bold,
-                        color = Color.Black,
+                        color = Color.White,
                         shadow = bayanganTeks
                     )
                 )
@@ -155,7 +155,7 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     .clip(CircleShape)
                     .border(
                         width = 4.dp,
-                        color = Color.Yellow,
+                        color = Color.Black,
                         shape = CircleShape
                     )
             )
