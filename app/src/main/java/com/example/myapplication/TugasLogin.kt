@@ -29,4 +29,13 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun TugasLogin(modifier: Modifier = Modifier) {
 
+    val bayanganTeks = Shadow(
+        color = Color.Black,
+        offset = Offset(2f, 2f),
+        blurRadius = 6f
+    )
+
+    Box(
+        modifier = modifier.fillMaxSize()
+    )
 }
