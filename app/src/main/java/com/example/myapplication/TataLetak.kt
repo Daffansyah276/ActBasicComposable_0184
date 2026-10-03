@@ -122,6 +122,13 @@ fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
                 .height(110.dp)
                 .background(Color.Yellow),
             contentAlignment = Alignment.Center
-        )
+        ) {
+            Column {
+
+
+        }
+
+       
+        }
     }
 }
