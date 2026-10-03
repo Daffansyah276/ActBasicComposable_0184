@@ -37,5 +37,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
     Box(
         modifier = modifier.fillMaxSize()
-    )
+    ) {
+        Image(
+            painter = painterResource(R.drawable.background),
+            contentDescription = "Gambar Background",
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
+
+    }
 }
